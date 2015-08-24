@@ -3,7 +3,6 @@ plotAll <- function () {
     require(dplyr)
     require(reshape2)
     require(ggplot2)
-    require(data.table)
     
     if (!file.exists("data.zip")){
         url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
